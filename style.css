@@ -19,7 +19,6 @@ body {
     justify-content: center;
 }
 .thinking{
-    border: 5px solid red;
     width: 50vw;
     height: 100vh;
     display: flex;
