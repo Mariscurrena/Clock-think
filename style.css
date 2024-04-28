@@ -27,9 +27,9 @@ body {
     justify-content: center;
 }
 .clock-dial{
-    width: 40vh;
-    height: 40vh;
-    border: 20px solid #00818a;
+    width: 40vw;
+    height: 40vw;
+    border: 1vh solid #00818a;
     border-radius: 50%;
     margin: 0 auto;
     position: relative;
@@ -37,9 +37,162 @@ body {
 .point{
     width: 1.5vw;
     height: 1.5vw;
-    background-color: #283149;
+    background-color: #000b2a;
     border-radius: 50%;
     position: absolute;
-    top: 18.5vh;
-    left: 18.5vh;
+    top: 20vw;
+    left: 20vw;
+}
+.hour{
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: #283149;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+.hour-12{
+    font-size: 3vw;
+    font-weight:lighter;
+    color: rgb(115, 0, 0);
+    left: 18.5vw;
+    top: 0vw;
+}
+.hour-1{
+    left: 29vw;
+    top: 3vw;
+}
+.hour-2{
+    left: 35.82vw;
+    top: 9.25vw;
+}
+.hour-3{
+    left: 38.5vw;
+    top: 19.75vw;
+}
+.hour-4{
+    left: 35.82vw;
+    top: 29.25vw;
+}
+.hour-5{
+    left: 29vw;
+    top: 35.5vw;
+}
+.hour-6{
+    left: 20vw;
+    top: 38vw;
+}
+.hour-7{
+    left: 10.5vw;
+    top: 35.5vw;
+}
+.hour-8{
+    left: 3.5vw;
+    top: 29.25vw;
+}
+.hour-9 {
+    left: 0.5vw;
+    top: 19.5vw;
+}
+.hour-10 {
+    left: 3.5vw;
+    top: 9.25vw;
+}
+.hour-11 {
+    left: 10.5vw;
+    top: 3vw;
+}
+.brand {
+    font-size: 1.25vw;
+    font-weight:bold;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    color: #00676e;
+    left: 17.5vw;
+    top: 8vw;
+}
+
+.minute-hand-wrapped {
+    width: 35vw;
+    height: 35vw;
+    position: absolute;
+    top: 3.75vw;
+    left:2.5vw;
+    border-radius: 50%;
+}
+.minute-hand {
+    position: relative;
+}
+.minute-hand .hand {
+    width: 0.3vw;
+    height: 16.5vw;
+    background-color: #404b69;
+    position: absolute;
+    left: 18.1vw;
+}
+.minute-hand .arrow {
+    font-size: 3vw;
+    font-weight: bold;
+    color: #404b69;
+    transform: rotate(180deg);
+    position: absolute;
+    left: 17.25vw;
+    top: -1.02vw;
+}
+
+.hour-hand-wrapped {
+    width: 30vw;
+    height: 30vw;
+    position: absolute;
+    top: 8.15vw;
+    left:5vw;
+    border-radius: 50%;
+}
+.hour-hand {
+    position: relative;
+}
+.hour-hand .hand {
+    width: 0.6vw;
+    height: 12vw;
+    background-color: #404b69;
+    position: absolute;
+    left: 15.45vw;
+}
+.hour-hand .arrow {
+    font-size: 3vw;
+    font-weight: bold;
+    color: #404b69;
+    transform: rotate(180deg);
+    position: absolute;
+    left: 14.7vw;
+    top: -1.02vw;
+}
+
+.second-hand-wrapped {
+    width: 35vw;
+    height: 35vw;
+    position: absolute;
+    top: 1.5vw;
+    left:2.5vw;
+    border-radius: 50%;
+}
+.second-hand {
+    position: relative;
+}
+.second-hand .hand {
+    width: 0.2vw;
+    height: 19vw;
+    background-color: rgb(115, 0, 0);
+    position: absolute;
+    left: 18.15vw;
+}
+.second-hand .arrow {
+    font-size: 2vw;
+    font-weight:lighter;
+    color: rgb(115, 0, 0);
+    transform: rotate(180deg);
+    position: absolute;
+    left: 17.6vw;
+    top: -0.65vw;
 }
