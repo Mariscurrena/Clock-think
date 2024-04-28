@@ -1,3 +1,4 @@
+//-----------------------------------------  ANALOG CLOCK
 var second = 0;
 var minute = 0;
 var hour = 0;
@@ -14,6 +15,9 @@ setInterval(
         document.getElementById("hour-hand").style.transform = "rotate(" + hour + "deg)";
     }, 1000
 );
+
+
+//-----------------------------------------  DIGITAL CLOCK
 const time = document.getElementById('time');
 const date = document.getElementById('date');
 
@@ -35,20 +39,18 @@ const interval = setInterval(() =>{
 
 }, 1000);
 
-//Creating the constant for the object btn
-const boton = document.querySelector('#btn');
-//Some variables for CSS Style
-var pagina = document.body;
-//Calling an Event.
-boton.addEventListener('click', function () {
-    if(pagina.style.background == "white"){
-        console.log("If_Part");
-        pagina.style.background = "linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(0, 0, 10) 71%, rgb(0, 0, 30) 100%)";
-        time.style.color = "rgb(230, 230, 230)";
-        date.style.color = "rgb(255, 227, 185)";
-    }else{
-        pagina.style.background = "white";
-        time.style.color = "rgb(0,0,100)";
-        date.style.color = "rgb(0,0,51)";
-    }
-});
+
+//-----------------------------------------  PHRASE EXTRACTOR
+var arrayData = new Array();
+var archivoTxt = new XMLHttpRequest();
+//Choosing a random file
+var n_file = Math.floor(Math.random() * 4) + 1;
+var fileRuta = "phrase" + n_file + ".txt";
+/////////////////////////////////////////////////////////7
+const phrase = document.getElementById('phrase');
+
+archivoTxt.open("GET",fileRuta,false);
+archivoTxt.send(null);
+var txt = archivoTxt.responseText;
+phrase.innerHTML = `${txt}`;
+console.log(txt);
