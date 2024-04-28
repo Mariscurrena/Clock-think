@@ -34,15 +34,6 @@ body {
     margin: 0 auto;
     position: relative;
 }
-.point{
-    width: 1.5vw;
-    height: 1.5vw;
-    background-color: #000b2a;
-    border-radius: 50%;
-    position: absolute;
-    top: 20vw;
-    left: 20vw;
-}
 .hour{
     font-size: 1.5vw;
     font-weight: bold;
@@ -117,7 +108,7 @@ body {
     width: 35vw;
     height: 35vw;
     position: absolute;
-    top: 3.75vw;
+    top: 2.5vw;
     left:2.5vw;
     border-radius: 50%;
 }
@@ -126,10 +117,10 @@ body {
 }
 .minute-hand .hand {
     width: 0.3vw;
-    height: 16.5vw;
+    height: 17.5vw;
     background-color: #404b69;
     position: absolute;
-    left: 18.1vw;
+    left: 17.5vw;
 }
 .minute-hand .arrow {
     font-size: 3vw;
@@ -137,16 +128,16 @@ body {
     color: #404b69;
     transform: rotate(180deg);
     position: absolute;
-    left: 17.25vw;
+    left: 16.7vw;
     top: -1.02vw;
 }
 
 .hour-hand-wrapped {
-    width: 30vw;
-    height: 30vw;
+    width: 25vw;
+    height: 25vw;
     position: absolute;
-    top: 8.15vw;
-    left:5vw;
+    top: 7.5vw;
+    left:7.5vw;
     border-radius: 50%;
 }
 .hour-hand {
@@ -154,10 +145,10 @@ body {
 }
 .hour-hand .hand {
     width: 0.6vw;
-    height: 12vw;
+    height: 12.5vw;
     background-color: #404b69;
     position: absolute;
-    left: 15.45vw;
+    left: 12.5vw;
 }
 .hour-hand .arrow {
     font-size: 3vw;
@@ -165,7 +156,7 @@ body {
     color: #404b69;
     transform: rotate(180deg);
     position: absolute;
-    left: 14.7vw;
+    left: 11.8vw;
     top: -1.02vw;
 }
 
@@ -173,7 +164,7 @@ body {
     width: 35vw;
     height: 35vw;
     position: absolute;
-    top: 1.5vw;
+    top: 2.5vw;
     left:2.5vw;
     border-radius: 50%;
 }
@@ -182,10 +173,10 @@ body {
 }
 .second-hand .hand {
     width: 0.2vw;
-    height: 19vw;
+    height: 17.5vw;
     background-color: rgb(115, 0, 0);
     position: absolute;
-    left: 18.15vw;
+    left: 17.5vw;
 }
 .second-hand .arrow {
     font-size: 2vw;
@@ -193,6 +184,15 @@ body {
     color: rgb(115, 0, 0);
     transform: rotate(180deg);
     position: absolute;
-    left: 17.6vw;
+    left: 17vw;
     top: -0.65vw;
+}
+.point{
+    width: 3vw;
+    height: 3vw;
+    background-color: #00818a;
+    border-radius: 50%;
+    position: absolute;
+    top: 18.45vw;
+    left: 18.6vw;
 }
