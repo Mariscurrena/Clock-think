@@ -29,8 +29,8 @@ body {
     width: 40vw;
     height: 40vw;
     border: 0.5vh solid rgba(255, 255, 255, 0.85);
-    background-color: rgba(2, 0, 27, 0.577);
-    box-shadow: 0 0 1vh #0095ffac;
+    background-color: rgba(2, 0, 27, 0.5);
+    box-shadow: 0 0 3vh #0095ffac;
     border-radius: 50%;
     margin: 0 auto;
     position: relative;
@@ -101,8 +101,8 @@ body {
     position: absolute;
     margin: 0;
     padding: 0;
-    color: rgba(0, 132, 209, 0.821);
-    text-shadow: 0 0 1.5vh #0095ffac;
+    color: rgba(235, 247, 255, 0.85);
+    text-shadow: 0 0 3vh #0095ffac;
     left: 17.5vw;
     top: 8vw;
 }
@@ -179,6 +179,7 @@ body {
     width: 3vw;
     height: 3vw;
     background-color: hwb(0 100% 0% / 0.95);
+    box-shadow: 0 0 1.5vh #0095ffac;
     border-radius: 50%;
     position: absolute;
     top: 18.45vw;
@@ -208,7 +209,7 @@ body {
     flex-direction: column;
     justify-content: center;
     border: 0.5vh solid rgba(255, 255, 255, 0.85);
-    box-shadow: 0 0 1vh #0095ffac;
+    box-shadow: 0 0 3vh #0095ffac;
     text-shadow: 0 0 1.5vh #0095ffac;
     border-radius: 5vw;
     height: 31vh;
@@ -245,7 +246,7 @@ body {
     flex-direction: column;
     justify-content: center;
     border: 0.5vh solid rgba(255, 255, 255, 0.85);
-    box-shadow: 0 0 1vh #0095ffac;
+    box-shadow: 0 0 3vh #0095ffac;
     text-shadow: 0 0 1.5vh #0095ffac;
     border-radius: 5vw;
     height: 62vh;
